@@ -60,7 +60,7 @@ cd laravel-url-shortener
     DB_USERNAME=root
     DB_PASSWORD=
 5. Run Migrations & Seeders
-    php artisan migrate:fresh --seed
+    php artisan db:seed --class=RoleSeeder 
 6. Run Server
     php artisan serve
 
